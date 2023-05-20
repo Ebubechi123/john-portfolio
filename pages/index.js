@@ -4,6 +4,7 @@ import { Epilogue } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from '@/components/header/header.component'
 import Marquee from '@/components/marquee/marquee.component'
+import Works from '@/components/works/works.component'
 
 const epilogue = Epilogue({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
       <main className={`${styles.main} ${epilogue.className}`}>
         <Header/>
         <Marquee/>
+        <Works/>
       </main>
     </>
   )
