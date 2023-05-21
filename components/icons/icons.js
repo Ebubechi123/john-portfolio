@@ -1,4 +1,4 @@
-import {FaBehance, FaInstagram, FaLinkedinIn, } from "react-icons/fa"
+import {FaBehance, FaInstagram, FaLinkedinIn } from "react-icons/fa"
 import {FiTwitter} from "react-icons/fi"
 import {BsArrowRightShort} from "react-icons/bs"
 import {AiFillCaretDown} from "react-icons/ai"
