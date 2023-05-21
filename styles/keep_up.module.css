@@ -48,3 +48,109 @@
   font-size: 18.1296px;
   text-align: left;
 }
+.articles_card,
+.photography {
+  width: 50%;
+  height: 540px;
+}
+
+.articles_card {
+  background-color: #343f71;
+  position: relative;
+  display: inline-block;
+}
+
+.articles_card_img {
+  width: 80%;
+  height: 409px;
+  right: -19.5%;
+  position: relative;
+  top: 60px;
+}
+
+.articles_text {
+  z-index: 1;
+  position: absolute;
+  width: 288px;
+  top: 9%;
+  left: 40px;
+  color: #ffff;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: 0.05em;
+}
+
+.articles_btn {
+  position: relative;
+  z-index: 9;
+  padding: 5px 3px;
+  border: none;
+  outline: none;
+  background-color: #ffff;
+  color: #343f71;
+  font-size: 24px;
+  font-weight: 600;
+  left: 50%;
+  top: 30px;
+  width: 146px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.star {
+  width: 34px;
+  height: 34px;
+  z-index: 9;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  position: relative;
+}
+
+.one {
+  left: 14px;
+  top: -30px;
+}
+
+.two {
+  position: absolute;
+  left: 50px;
+  bottom: -2px;
+}
+
+.three {
+  left: 50px;
+  top: 10px;
+}
+
+.four {
+  left: 120px;
+  top: 40px;
+}
+
+.five {
+  top: 40px;
+  left: 50%;
+}
+.photography{
+  position: relative;
+}
+.photography_text {
+  font-weight: 800;
+  font-size: 48px;
+  color:#ffff;
+  position: relative;
+  z-index: 1;
+  top: -27%;
+  left: 40px;
+}
