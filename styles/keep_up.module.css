@@ -1,0 +1,50 @@
+.wrapper {
+  width: 100%;
+  padding-bottom: 85px;
+  border-bottom: 2px solid black;
+  border-bottom-style: dashed;
+  margin-bottom: 45px;
+}
+.title_container {
+  width: 100%;
+  margin: 50px 0px;
+}
+
+.title {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+.description_wrapper {
+  width: 100%;
+  line-height: 40px;
+  width: 708px;
+}
+
+.description {
+  font-weight: 400;
+  color: #353535;
+  font-size: 16px;
+}
+
+.keep_up_card {
+  width: 380.4px;
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.keep_up_card_image_container {
+  width: 100%;
+}
+.keep_up_card_text_container {
+  width: 100%;
+}
+
+.keep_up_card_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.1296px;
+  text-align: left;
+}

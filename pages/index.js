@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Header from '@/components/header/header.component'
 import Marquee from '@/components/marquee/marquee.component'
 import Works from '@/components/works/works.component'
+import Keep_Up from '@/components/keep_up/keep_up.component'
 
 const epilogue = Epilogue({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Header/>
         <Marquee/>
         <Works/>
+        <Keep_Up/>
       </main>
     </>
   )
