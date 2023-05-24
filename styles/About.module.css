@@ -1,0 +1,96 @@
+.about_wrapper {
+  margin-top: 80px;
+}
+
+.top_section {
+  flex: 2;
+  display: flex;
+  align-items:flex-start;
+  width: 100%;
+}
+
+.bottom_section {
+  flex: 1;
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  margin-bottom: 34px;
+}
+
+.image_section {
+  flex: 1;
+}
+
+.image {
+  width: 420px;
+  height: 420px;
+  border: 2px solid black;
+  border-style: dashed;
+}
+.article_section {
+  flex: 3;
+  padding: 0px 43px;
+  flex-direction: column;
+}
+
+.title_wrapper {
+  width: 100%;
+  padding:0px 0px 23px 0px  ;
+}
+
+.title {
+  font-size: 48px;
+  color: #2d2d2d;
+  margin: 0px;
+  font-weight: 700;
+}
+
+.article {
+  width: 100%;
+  font-size: 20px;
+  color: #3b3b3b;
+  line-height: 44px;
+  font-weight: 300;
+}
+
+.work_experience_section {
+  flex: 1;
+  padding: 23px;
+}
+
+.education_section {
+  flex: 1;
+  padding: 23px;
+}
+
+
+.lets_connect{
+    width: 100%;
+    margin-top: 34px;
+}
+.lets_connect p{
+    font-size: 20px;
+    color: #000000;
+    line-height: 36.19px;
+    font-weight: 400;
+}
+
+.lets_connect p span{
+    color: #FBC40E;
+}
+.bottom_section_title_wrapper{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.bottom_section_title_wrapper h4{
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+    margin: 0px;
+}
+
+.experience_image, .education_image{
+    width: 50%;
+    left: 0px;
+}

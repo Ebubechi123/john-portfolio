@@ -1,0 +1,47 @@
+.job_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.job_info,.job_position,.job_duration {
+  width: 100%;
+}
+
+.job_info p {
+  font-weight: 600;
+  padding: 0px;
+  margin: 0px;
+  font-size: 30px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.job_info p span {
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+}
+
+
+.job_position p{
+    font-weight: 500;
+    padding: 0px;
+    font-size: 24px;
+    margin: 0px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.job_duration p {
+    font-weight: 400;
+    padding: 0px;
+    font-size: 24px;
+    margin: 0px;
+    line-height: 50px;
+    color: #929191;
+}
