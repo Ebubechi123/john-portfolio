@@ -1,5 +1,5 @@
 .marquee_container {
-  margin-top: 250px;
+  margin-top: 130px;
   margin-bottom: 90px;
   width: 1589px;
   position: relative;
@@ -18,3 +18,9 @@
   height: 385px;
 
 }
+
+.marquee{
+  font-size: 63px;
+  font-weight: 600;
+}
+

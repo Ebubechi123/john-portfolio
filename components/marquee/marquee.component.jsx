@@ -18,7 +18,7 @@ const MarqueeComponent = () => {
         <Marquee
           autofill={false}
           speed={150}
-          style={{ fontSize: "64px", fontWeight: 600 }}
+          className={styles.marquee}
         >
           Product Design/Visual Storytelling/Motion Design
         </Marquee>
