@@ -7,3 +7,9 @@
   margin: 0px;
   background-color:  #ffffff;
 }
+
+@media only screen and(max-width:680px) {
+  .main{
+    margin-top: 123px
+  }
+}
