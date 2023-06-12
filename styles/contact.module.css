@@ -80,7 +80,7 @@
   padding: 0px;
   margin: 0px;
   align-items: baseline;
-  justify-content:flex-end;
+  justify-content: flex-end;
 }
 
 .title_container {
@@ -135,4 +135,114 @@
 
 .lets_connect_icons ul li .icon:hover {
   color: #ffa0e5d6;
+}
+@media only screen and (max-width: 1187px) {
+  .top_section {
+    flex-direction: column;
+  }
+  .first_image_wrapper,
+  .second_image_wrapper {
+    width: 100%;
+  }
+  .first_image_wrapper .john2 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .first_image_wrapper::before {
+    display: none;
+  }
+  .second_image_wrapper {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: flex-start;
+  }
+
+  .second_image_wrapper .john3,
+  .john4 {
+    height: 200px;
+    object-fit: cover;
+    width: 45% !important;
+  }
+
+  .john4 {
+    height: 210px;
+    position: relative;
+    right: initial;
+    top: auto;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .bottom_section {
+    padding: 23px 0px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .bottom_section {
+    padding: 3px;
+    flex-direction: column;
+  }
+  .lets_connect_text_wrapper {
+    line-height: 23px;
+  }
+  .form_section {
+    flex: 1;
+    margin-top: 30px;
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .first_image_wrapper .john2 {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+  .first_image_wrapper::before {
+    display: none;
+  }
+  .second_image_wrapper {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: flex-start;
+  }
+
+  .second_image_wrapper .john3,
+  .john4 {
+    height: 100px;
+    object-fit: cover;
+    width: 45% !important;
+  }
+
+  .john4 {
+    height: 110px;
+    position: relative;
+    right: initial;
+    top: auto;
+  }
+  .title_container h4 {
+    font-size: 30px;
+  }
+  .lets_connect_text_wrapper {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .first_image_wrapper .john2 {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .first_image_wrapper .john2 {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
 }
