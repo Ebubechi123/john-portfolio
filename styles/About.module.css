@@ -26,6 +26,7 @@
   height: 420px;
   border: 2px solid black;
   border-style: dashed;
+  object-fit: cover;
 }
 .article_section {
   flex: 3;
@@ -93,4 +94,55 @@
 .experience_image, .education_image{
     width: 50%;
     left: 0px;
+}
+
+/* Media query */
+
+@media only screen and (max-width:1080px) {
+  .top_section{
+    flex-direction: column;
+  }
+  .image_section,.article_section{
+    flex: 1;
+    width: 100%;
+    padding: 0px;
+  }
+  .article_section{
+    margin-top: 60px;
+  }
+  .image{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:780px){
+  .article_section{
+    padding: 0px 3px;
+  }
+  .bottom_section{
+    flex-direction: column;
+    width: 100%;
+  }
+  .work_experience_section {
+    padding: 0px;
+  }
+  
+  .education_section {
+    padding: 0px;
+  }
+}
+  @media only screen and (max-width:680px){
+    .image{
+     height: 230px;
+    }
+    .title,.bottom_section_title_wrapper h4 {
+      font-size: 32px;
+    }
+    .article{
+      font-size: 17px;
+    }
+    .lets_connect p{
+      font-size: 17px;
+    }
+  
+
 }

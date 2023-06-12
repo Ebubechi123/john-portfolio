@@ -45,3 +45,20 @@
     line-height: 50px;
     color: #929191;
 }
+
+/* Media query */
+
+@media only screen and (max-width:680px){
+ 
+.job_info p,.job_info p span{
+    font-size: 22px;
+  }
+  .job_position p{
+    font-size: 18px;
+  }
+
+  .job_duration p{
+    font-size: 16px;
+  }
+
+}
