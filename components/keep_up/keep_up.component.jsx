@@ -23,7 +23,7 @@ const Keep_Up = () => {
 
        <Keep_Up_Marquee/>
 
-       <div style={{width:"100%",display:"flex",alignItems:"center",justifyContent:"center",gap:'53px'}} >
+       <div className={styles.cards_container} >
         <div className={styles.articles_card} >
         <Image src={articleImage} className={styles.articles_card_img}  />
         <Image src={starImage} className={styles.star}  />
